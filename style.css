@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.big-intro {
+    /* width: 500px; Adjust as needed */
+    height: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the image */
+    display: flex;
+    margin-bottom: -350px;
+}
+.big-intro #main-photo{
+    margin-left: 50px;
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+}
+
+section#about-me h2 {
+    font-size: 24px;
+    margin-bottom: 5px; /* Reduced from 20px to 10px */
+    display: inline-block;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.big-intro {
+    font-size: 100px;
+    margin-top: 0; /* Add this line to reduce the space above this element */
+    padding: 40px 0;
+    padding-left: 67px;
+    padding-bottom: 20px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the start */
+    align-items: center;
+}
+
+.about-text {
+    flex: 1; /* Gives more space to the text */
+    padding: 0px;
+}
+
+section#about-me {
+    padding: 40px 0;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    margin-left: 75px;
+    max-width: 700px;
+}
+
+section#about-me h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section#about-me p {
+    margin-bottom: 15px;
+}
+
+body, h1, h2, h3, h4, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+}
+
+header {
+    background: #FFF;
+    padding: 20px 0;
+    border-bottom: 2px solid #000;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: larger;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 20px;
+    color: #003366;
+    margin-bottom: 0px;
+}
+
+.experience h4 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.experience ul {
+    list-style-type: disc; /* This will add the default disc-style bullet points */
+    padding-left: 20px; /* Add padding to align the bullets properly */
+}
+
+.experience li {
+    margin-bottom: 5px;
+    /* Remove the background image and padding-left properties if you want default bullets */
+}
+
+header .header-container, section {
+    width: 90%;
+    margin: 0 auto; /* This will add margin to the left and right */
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: inline-block; /* Change display to inline-block */
+    border-bottom: 2px solid #000; 
+    padding-bottom: 5px; /* Adjust padding to control the space between text and line */
+}
+
+.portfolio-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px;
+}
+
+.box-container {
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    position: relative;
+    overflow: hidden; /* This ensures the image does not overflow the box */
+}
+
+.box img {
+    width: 100%; /* This makes the image fill the width of the box */
+    height: auto; /* This maintains the aspect ratio of the image */
+    display: block; /* Removes any extra space below the image */
+}
+
+/* Responsive adjustment for smaller screens, if needed */
+@media (max-width: 768px) {
+    .box-container {
+        width: 100%; /* Each box container takes full width */
+        padding-top: 100%; /* Adjust the padding-top to maintain the square shape */
+        margin: 10px 0; /* Adjust margin to only top and bottom */
+    }
+}
+
+#skills {
+    padding: 20px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.skill {
+    width: calc(25% - 10px); /* Four items per row */
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.skill img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 14px;
+    margin: 0;
+}
