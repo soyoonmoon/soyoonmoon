@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @soyoonmoon
-- 🌱 I study computer science. I am especially interested in data science and behavioral economics.
 - 💞️ I’m looking forward to working on projects to change the world to a better place.
-- 📫 How to reach me: soyoonmoon23 at gmail dot com / soyoonmoon at uchicago dot edu. 
+- 📫 How to reach me: soyoonmoon23 at gmail dot com
+- Currently based in LA!
