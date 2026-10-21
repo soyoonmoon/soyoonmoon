@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @soyoonmoon
 - 💞️ I’m looking forward to working on projects to change the world to a better place.
 - 📫 How to reach me: soyoonmoon23 at gmail dot com
-- Currently based in NYC!
+- Currently based in Seattle!
